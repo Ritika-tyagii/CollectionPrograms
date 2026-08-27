@@ -21,5 +21,8 @@ System.out.println(std.contains("Rahul"));
 System.out.println( std.indexOf("Amit"));
 System.out.println("Final : " + std);
 System.out.println("size:- "+ std.size());
+for(int i=0 ; i<=5;i++){
+    System.out.println(  " Student Name : "+ std.get(i) + " At Index " +i);
+}
     }
 }
